@@ -5,7 +5,6 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 
-baseurl: /homepage
 urls:
   profile: https://github.com/fkdarven
   linkedin: https://www.linkedin.com/in/letícia-moreira-566997177/
