@@ -1,9 +1,13 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+title: Leticia Moreira
+logo: /assets/img/profile.webp
+description: 
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 
-url: fkdarven.github.io
 baseurl: /homepage
+urls:
+  profile: https://github.com/fkdarven
+  linkedin: https://www.linkedin.com/in/letícia-moreira-566997177/
+  whatsapp: https://whatsa.me/5549991467284
+

@@ -1,0 +1,242 @@
+Script started on 2022-10-15 21:20:26-03:00 [TERM="xterm-256color" TTY="/dev/tty2" COLUMNS="120" LINES="30"]
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ dsafasd[K[K[K[K[K[K[Kbundle exec jekyll esrve
+[?2004l^C/usr/lib/ruby/3.0.0/erb.rb:498:in `require': [1;4mInterrupt[m
+	from /usr/lib/ruby/3.0.0/erb.rb:498:in `<class:Compiler>'
+	from /usr/lib/ruby/3.0.0/erb.rb:340:in `<class:ERB>'
+	from /usr/lib/ruby/3.0.0/erb.rb:269:in `<top (required)>'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/new.rb:3:in `require'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/new.rb:3:in `<top (required)>'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll.rb:13:in `require'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll.rb:13:in `block in require_all'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll.rb:12:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll.rb:12:in `require_all'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll.rb:193:in `<top (required)>'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:8:in `require'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:8:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ bundle exec jekyll esrve[K[K[K[K[Kserve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  Operation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE
+/home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `utime': [1mOperation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE ([1;4mErrno::EPERM[m[1m)[m
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `copy_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:105:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:209:in `block in write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:332:in `block (2 levels) in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `block in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:208:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:73:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in `process_site'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:15:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ bundle exec jekyll serve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  Operation not permitted @ apply2files - /mnt/e/homepage/_site/README.md
+/home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `utime': [1mOperation not permitted @ apply2files - /mnt/e/homepage/_site/README.md ([1;4mErrno::EPERM[m[1m)[m
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `copy_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:105:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:209:in `block in write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:332:in `block (2 levels) in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `block in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:208:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:73:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in `process_site'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:15:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ bundle exec jekyll serve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  Operation not permitted @ apply2files - /mnt/e/homepage/_site/README.md
+/home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `utime': [1mOperation not permitted @ apply2files - /mnt/e/homepage/_site/README.md ([1;4mErrno::EPERM[m[1m)[m
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `copy_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:105:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:209:in `block in write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:332:in `block (2 levels) in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `block in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:208:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:73:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in `process_site'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:15:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ bundle exec jekyll serve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  Operation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE
+/home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `utime': [1mOperation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE ([1;4mErrno::EPERM[m[1m)[m
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `copy_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:105:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:209:in `block in write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:332:in `block (2 levels) in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `block in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:208:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:73:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in `process_site'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:15:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ 
+[?2004l[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ bundle exec jekyll serve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  Operation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE
+/home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `utime': [1mOperation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE ([1;4mErrno::EPERM[m[1m)[m
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `copy_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:105:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:209:in `block in write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:332:in `block (2 levels) in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `block in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:208:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:73:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in `process_site'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:15:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ chmod -R 777 ho[K[K)s[K[K_site/l=[KL[K[KLICENSE 
+[?2004lchmod: changing permissions of '_site/LICENSE': Operation not permitted
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ chmod -R 777 _site/LICENSE [1@s[1@u[1@d[1@o[1@ 
+[?2004l[sudo] password for darven: 
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ sudo chmod -R 777 _site/LICENSE [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pbundle exec jekyll serve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  Operation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE
+/home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `utime': [1mOperation not permitted @ apply2files - /mnt/e/homepage/_site/LICENSE ([1;4mErrno::EPERM[m[1m)[m
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:163:in `copy_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/static_file.rb:105:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:209:in `block in write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:332:in `block (2 levels) in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:331:in `block in each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:330:in `each_site_file'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:208:in `write'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/site.rb:73:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in `process_site'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in `build'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in `process'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `block in start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `each'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:93:in `start'
+	from /home/darven/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve.rb:75:in `block (2 levels) in init_with_program'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /home/darven/gems/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /home/darven/gems/gems/jekyll-3.9.2/exe/jekyll:15:in `<top (required)>'
+	from /home/darven/gems/bin/jekyll:25:in `load'
+	from /home/darven/gems/bin/jekyll:25:in `<main>'
+[?2004h]0;darven@DESKTOP-6L9IRJE: /mnt/e/homepage[01;32mdarven@DESKTOP-6L9IRJE[00m:[01;34m/mnt/e/homepage[00m$ bundle exec jekyll serve
+[?2004lConfiguration file: /mnt/e/homepage/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /mnt/e/homepage
+       Destination: /mnt/e/homepage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+jekyll 3.9.2 | Error:  O
